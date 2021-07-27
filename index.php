@@ -16,11 +16,11 @@
         
 		if(mysqli_query($conn,$sql))
 		{
-			echo "<script>alert('Recorded added sucesfully'); window.location.href='index.php';</script>";
+			echo "<script>alert('Recorded added sucesfully'); window.location.href='home.html';</script>";
 		}
 		else
 		{
-			echo "<script>alert('Recorded cration failed , try again'); window.location.href='index.php';</script>";		
+			echo "<script>alert('Recorded cration failed , try again'); window.location.href='home.html';</script>";		
 		} 
 
 	}
