@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #2C73D2;
+    font-family: 'Play', sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+    min-width: 20%;
+    max-width: 40%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 4px #2362b7;
+    border-radius: 5px;
+    padding: 1rem 0;
+}
+
+#reg{
+    text-align: center;
+    margin: 1rem 0;
+    color: aliceblue;
+    box-shadow: 1px 1px 4px #2d63ab;
+    border-radius: 5px;
+    padding: 0 5px;
+}
+
+.data-inp{
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 1.1rem;
+    padding: 5px 0;
+    margin: 10px 0;
+    outline: none;
+    width: 90%;
+    color: whitesmoke;
+}
+
+form input::placeholder{
+    color: #a9afb1;
+}
+
+.select{
+    font-size: 1.1rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    color: #a9afb1;
+    outline: none;
+    margin: 10px 0;
+    width: 90%;
+}
+
+#form-btn{
+    font-size: 1.1rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 2rem 0 0 0;
+    min-width: 30%;
+    max-width: 30%;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,30 @@
+<html>
+
+<head>
+	<title>Student registration form</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1 id="reg">Registration Form</h1> 
+
+		<form action="index.php" method="POST">
+			<input type="text" class="data-inp" autocomplete="off" placeholder="Full Name" name="name" required="required">
+			<input type="text" class="data-inp" autocomplete="off" placeholder="Roll Number" name="rollno" required="required">
+			<input type="text" class="data-inp" autocomplete="off" placeholder="Department" name="dept" required="required">
+
+			<select name="sem" class="select">SELECT SEMESTER
+				<option>SEM 1</option>
+				<option>SEM 2</option>
+				<option>SEM 3</option>
+				<option>SEM 4</option>
+				<option>SEM 5</option>
+				<option>SEM 6</option>
+			</select>
+
+			<button type="submit" name="submit" id="form-btn">Submit</button>
+		</form>
+	</div>
+</body>
+
+</html>
