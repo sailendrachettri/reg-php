@@ -1,6 +1,6 @@
 <?php
-	include_once("home.html");
-	include "connection.php";
+	include("home.html");
+	require ("connection.php");
 	if(isset($_POST["submit"]))
 	{
 		$name=$_POST["name"];
