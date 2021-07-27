@@ -6,7 +6,7 @@
     // $dbname = "Student";
 
     // production code
-    $servername = "https://reg-php.herokuapp.com";
+    $servername = "reg-php.herokuapp.com";
     $username = "xzZbbLJLPW";
     $password = "X0wSGrJL3A";
     $dbname = " xzZbbLJLPW";
