@@ -6,7 +6,7 @@
     // $dbname = "Student";
 
     // production code
-    $servername = "remotemysql.com";
+    $servername = "https://reg-php.herokuapp.com";
     $username = "xzZbbLJLPW";
     $password = "X0wSGrJL3A";
     $dbname = " xzZbbLJLPW";
