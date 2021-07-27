@@ -8,7 +8,11 @@
 		$dept=$_POST["dept"];
 		$sem=$_POST["sem"];
 
-		$sql="INSERT INTO student_info(rollno,name,sem,department) values('$rollno','$name','$sem','$dept')";
+		// for development use
+		// $sql="INSERT INTO student_info(rollno,name,sem,department) values('$rollno','$name','$sem','$dept')";
+
+		// for production use
+		$sql="INSERT INTO student_info(rollno,name,sem,dept) values('$rollno','$name','$sem','$dept')";
         
 		if(mysqli_query($conn,$sql))
 		{
