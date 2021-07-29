@@ -6,7 +6,7 @@
     // $dbname = "Student";
 
     // production code
-    $servername = "https://remotemysql.com";
+    $servername = "remotemysql.com";
     $username = "xzZbbLJLPW";
     $password = "X0wSGrJL3A";
     $dbname = " xzZbbLJLPW";
@@ -15,7 +15,7 @@
     if(!$conn){
         die("Connection failed: " .mysqli_connect_error());
     }
-    // else{
-    //     echo "connected.";
-    // }
+    else{
+        echo "connected.";
+    }
 ?>  
