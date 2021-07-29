@@ -1,6 +1,7 @@
 <?php
 	include("home.html");
 	require ("connection.php");
+	
 	if(isset($_POST["submit"]))
 	{
 		$name=$_POST["name"];
@@ -9,10 +10,10 @@
 		$sem=$_POST["sem"];
 
 		// for development use
-		$sql="INSERT INTO students_info(rollno,name,sem,department) values('$rollno','$name','$sem','$dept')";
+		// $sql="INSERT INTO students_info(rollno,name,sem,department) values('$rollno','$name','$sem','$dept')";
 
 		// for production use
-		// $sql="INSERT INTO student_info(rollno,name,sem,dept) values('$rollno','$name','$sem','$dept')";
+		$sql="INSERT INTO student_info(rollno,name,sem,dept) values('$rollno','$name','$sem','$dept')";
         
 		if(mysqli_query($conn,$sql))
 		{
