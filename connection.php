@@ -4,12 +4,13 @@
     // $username = "root";
     // $password = "";
     // $dbname = "Student";
-
+    
     // production code
     $servername = "remotemysql.com";
-    $username = "xzZbbLJLPW";
-    $password = "X0wSGrJL3A";
-    $dbname = " xzZbbLJLPW";
+    $username = "QeBlXOUlJO";
+    $password = "8DHzkbA6hS";
+    $dbname = "QeBlXOUlJO";
+
 
     $conn = mysqli_connect($servername, $username, $password, $dbname);
     if(!$conn){
