@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Play', sans-serif;
+}
+
+:root{
+    --registration-color: rgb(170, 166, 166);
+    --registration-color2: whitesmoke;
+}
+
+body{
+    background-image: linear-gradient(to right bottom, #00caf6, #00b9f4, #00a8f1, #0096eb, #0083e2, #197ddf, #2877dc, #3471d9, #3078df, #2b7fe4, #2785e9, #238cee);
+    min-height: 100vh;
+}
+
+/* Homepage design */
+#homepage{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#reg-portal{
+    font-size: 2rem;
+    color: white;
+    margin: 2rem;
+}
+
+#views{
+    box-shadow: 1px 1px 4px #2c5ea9;
+    border-radius: 4px;
+}
+
+#views a{
+    text-decoration: none;
+}
+
+#views small{
+    filter: invert();
+}
+
+.view-field{
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: start;
+    color: white;
+}
+
+.view-field:hover{
+    color: rgb(224, 221, 221);
+}
+
+footer{
+    margin-top: 3rem;
+}
+
+footer small{
+    color: white;
+}
+
+
+/* Registration form design */
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+#form-container{
+    background: #030A10;
+    box-shadow: 1px 1px 4px black; 
+    border-radius: 5px;
+    padding: 1rem 0;
+}
+
+.container form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#reg{
+    text-align: center;
+    margin: 1rem 0;
+    color: white;
+    border-radius: 5px;
+    padding: 0 5px;
+}
+
+.data-inp{
+    border: none;
+    border-bottom: 1px solid var(--registration-color2);
+    font-size: 1.1rem;
+    padding: 5px 0;
+    margin: 10px 0;
+    outline: none;
+    width: 90%;
+    color: white;
+    background: transparent;
+}
+
+form input::placeholder{
+    color: var(--registration-color);
+}
+
+.select{
+    font-size: 1.1rem;
+    border: 1px solid var(--registration-color2);
+    border-radius: 10px;
+    padding: 5px;
+    color: var(--registration-color);
+    outline: none;
+    margin: 10px 0;
+    width: 90%;
+    background: transparent;
+}
+
+#form-btn{
+    font-size: 1.1rem;
+    color: var(--registration-color2);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 2rem 0 0 0;
+    border: 1px solid var(--registration-color);;
+    cursor: pointer;
+    background: transparent;
+    font-weight: 700;
+}
+
+#form-btn:hover{
+    background: white;
+    color: black;
+}

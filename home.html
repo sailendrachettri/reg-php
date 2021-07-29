@@ -1,33 +1,27 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Student registration form</title>
-	<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Colleg Registration</title>
 </head>
 <body>
-	<div class="container">
-		<h2 id="reg">Registration Form</h2> 
+    <div id="homepage">
+        <h2 id="reg-portal">Registration portal</h2>
 
-		<form action="index.php" method="POST">
-			<input type="text" class="data-inp" autocomplete="off" placeholder="Full Name" name="name" required="required">
-			<input type="text" class="data-inp" autocomplete="off" placeholder="Roll Number" name="rollno" required="required">
-			<input type="text" class="data-inp" autocomplete="off" placeholder="Department" name="dept" required="required">
+        <div id="views">
+            <a href="registration.html"><h2 class="view-field">Add student's data <small>&#10150;</small> </h2></a>
+            <a href="viewdata.html"><h2 class="view-field">View student's data <small>&#10150;</small> </h2></a>
+            <a href="updatedata.html"><h2 class="view-field">Update student's data <small>&#10150;</small> </h2></a>
+            <a href="deletedata.html"><h2 class="view-field">Delete student's data <small>&#10150;</small> </h2></a>
+        </div>
 
-			<select name="sem" class="select">SELECT SEMESTER
-				<option>SEM 1</option>
-				<option>SEM 2</option>
-				<option>SEM 3</option>
-				<option>SEM 4</option>
-				<option>SEM 5</option>
-				<option>SEM 6</option>
-			</select>
+        <footer>
+            <small>Design by 20SV0001</small> 
+        </footer>
 
-			<button type="submit" name="submit" id="form-btn">Submit</button>
-		</form> 
-	</div>
+    </div>
 </body>
-
 </html>
