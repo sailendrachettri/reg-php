@@ -15,7 +15,7 @@
 
     <?php
     include "connection.php";
-    $sql = "SELECT rollno, name, sem, department FROM students_info";
+    $sql = "SELECT rollno, name, sem, dept FROM student_info";
     $result = $conn->query($sql);
 
     if ($result->num_rows > 0) {
@@ -35,9 +35,6 @@
         }
     } else {
         echo "No data here. Go back an Enter some data to view here.";
-        while ($row = $result->fetch_assoc()) {
-            echo "<table><tr id='inner_table'><td>" . $row["name"]. "</td>" . "<td>" .$row["rollno"]. "</td>". "<td>". $row["sem"]."</td>" ."<td>". $row["department"]."</td>". "</tr>". "</table>";
-        }
     }
 
     $conn->close();
