@@ -142,3 +142,30 @@ form input::placeholder{
     background: white;
     color: black;
 }
+
+/* VIEW TABLE  */
+
+/* Outer table */
+#outer_table{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(128, 9, 9);
+}
+
+#outer_table tr{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+#outer_table tr th{
+    padding: 0 2rem;
+
+}
+
+
+/* Inner table */
+#inner_table td{
+    padding: 5px;
+}
